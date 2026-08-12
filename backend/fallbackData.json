@@ -1,0 +1,36 @@
+{
+  "topic": "Photosynthesis",
+  "explainer": "Photosynthesis is the process used by plants and other organisms to convert light energy into chemical energy. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water. Oxygen is released as a byproduct of this reaction.",
+  "quiz": [
+    {
+      "question": "What pigment absorbs light energy for photosynthesis?",
+      "options": ["Hemoglobin", "Chlorophyll", "Melanin", "Carotene"],
+      "correctIndex": 1,
+      "explanation": "Chlorophyll is the primary green pigment in plants that absorbs light for photosynthesis."
+    },
+    {
+      "question": "Which of the following is a byproduct of photosynthesis?",
+      "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Methane"],
+      "correctIndex": 2,
+      "explanation": "Oxygen is produced as a byproduct during the light-dependent reactions."
+    },
+    {
+      "question": "Where in the plant cell does photosynthesis take place?",
+      "options": ["Mitochondria", "Nucleus", "Chloroplast", "Ribosome"],
+      "correctIndex": 2,
+      "explanation": "Chloroplasts contain chlorophyll and house the photosynthetic machinery."
+    },
+    {
+      "question": "What gas is absorbed from the atmosphere during photosynthesis?",
+      "options": ["Carbon Dioxide", "Oxygen", "Hydrogen", "Helium"],
+      "correctIndex": 0,
+      "explanation": "Plants take in CO2 from the air to synthesize sugars."
+    },
+    {
+      "question": "What form of energy is light converted into during photosynthesis?",
+      "options": ["Thermal Energy", "Chemical Energy", "Nuclear Energy", "Kinetic Energy"],
+      "correctIndex": 1,
+      "explanation": "Light energy is converted into chemical energy stored in glucose."
+    }
+  ]
+}
