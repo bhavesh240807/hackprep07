@@ -59,11 +59,114 @@ function FunFactCallout({ text }) {
   )
 }
 
+/* ── Fallback quiz cards ── */
+function buildFallbackQuestions(module, levelKey) {
+  const levelNotes = module.levels[levelKey]?.notes || []
+
+  const questionBank = {
+    'solar-system': [
+      {
+        question: 'Which planet is the largest in our Solar System?',
+        options: ['Earth', 'Jupiter', 'Mars', 'Saturn'],
+        answer: 'Jupiter'
+      },
+      {
+        question: 'Where is the asteroid belt located?',
+        options: ['Between Earth and Mars', 'Between Mars and Jupiter', 'Between Jupiter and Saturn', 'Beyond Neptune'],
+        answer: 'Between Mars and Jupiter'
+      },
+      {
+        question: 'What is the name of the dwarf planet found in the asteroid belt?',
+        options: ['Pluto', 'Ceres', 'Europa', 'Titan'],
+        answer: 'Ceres'
+      }
+    ],
+    'stars-stellar-evolution': [
+      {
+        question: 'What process powers a star during most of its life?',
+        options: ['Chemical burning', 'Nuclear fusion', 'Gravity collapse', 'Radioactive decay'],
+        answer: 'Nuclear fusion'
+      },
+      {
+        question: 'Which type of star is the most common in the universe?',
+        options: ['Blue giants', 'Red dwarfs', 'White dwarfs', 'Neutron stars'],
+        answer: 'Red dwarfs'
+      },
+      {
+        question: 'What remains after a Sun-like star sheds its outer layers?',
+        options: ['Black hole', 'White dwarf', 'Neutron star', 'Red giant'],
+        answer: 'White dwarf'
+      }
+    ],
+    'gravity-orbital-mechanics': [
+      {
+        question: 'What force keeps planets in orbit around the Sun?',
+        options: ['Magnetism', 'Gravity', 'Friction', 'Radiation'],
+        answer: 'Gravity'
+      },
+      {
+        question: 'What is the main shape of planetary orbits?',
+        options: ['Circle', 'Triangle', 'Ellipse', 'Square'],
+        answer: 'Ellipse'
+      },
+      {
+        question: 'What does a gravity assist help spacecraft do?',
+        options: ['Increase fuel cost', 'Change speed without much fuel', 'Stop in orbit', 'Land on the Sun'],
+        answer: 'Change speed without much fuel'
+      }
+    ]
+  }
+
+  if (questionBank[module.id]) return questionBank[module.id]
+
+  if (!levelNotes.length) {
+    return [
+      {
+        question: `What is one key idea from the ${module.name} sector?`,
+        options: ['Study the notes', 'Ignore the facts', 'Skip the mission', 'Delete the module'],
+        answer: 'Study the notes'
+      }
+    ]
+  }
+
+  return [
+    {
+      question: `Which statement best matches the ${module.name} briefing?`,
+      options: [
+        levelNotes[0].slice(0, 55) + '...',
+        'This topic is unrelated to space.',
+        'It ignores gravity and orbit.',
+        'It is only about chemistry.'
+      ],
+      answer: levelNotes[0].slice(0, 55) + '...'
+    },
+    {
+      question: `What is the best way to study this sector?`,
+      options: ['Skip the notes', 'Review the key facts and mission notes', 'Delete the module', 'Ignore the labels'],
+      answer: 'Review the key facts and mission notes'
+    }
+  ]
+}
+
+function QuizPreviewCard({ question, index }) {
+  return (
+    <div className="quiz-preview-item reveal" style={{ animationDelay: `${0.15 + index * 0.1}s` }}>
+      <div className="quiz-preview-q">Q{index + 1}. {question.question}</div>
+      <ul className="quiz-preview-options">
+        {question.options.map((option, i) => (
+          <li key={i} className={option === question.answer ? 'quiz-preview-correct' : ''}>{option}</li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
 /* ── Module Detail Panel ── */
 function ModuleDetail({ module, onClose }) {
   const [activeLevel, setActiveLevel] = useState('cadet')
   const levelData = module.levels[activeLevel]
   const levelCfg = LEVEL_CONFIG[activeLevel]
+  const quizPreview = buildFallbackQuestions(module, activeLevel)
 
   /* Re-trigger scroll reveals when level changes */
   useEffect(() => {
@@ -161,6 +264,21 @@ function ModuleDetail({ module, onClose }) {
                     }}
                   />
                 ))}
+              </div>
+            </div>
+
+            {/* Quiz Preview */}
+            <div className="quiz-preview-box reveal">
+              <div className="quiz-preview-header">
+                <span>🧠</span> QUIZ PREVIEW
+              </div>
+              <div className="quiz-preview-list">
+                {quizPreview.slice(0, 3).map((q, i) => (
+                  <QuizPreviewCard key={i} question={q} index={i} />
+                ))}
+              </div>
+              <div className="quiz-preview-footer">
+                <span className="quiz-preview-note">* Questions based on module content</span>
               </div>
             </div>
           </div>
