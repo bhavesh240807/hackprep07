@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 /* ── Scroll reveal hook ── */
 function useReveal() {
@@ -131,6 +132,7 @@ function Navbar({ stardust }) {
    HERO SECTION
 ───────────────────────────────────────── */
 function HeroSection() {
+  const navigate = useNavigate()
   return (
     <section className="hero">
       <div className="hero-content">
@@ -154,7 +156,7 @@ function HeroSection() {
         </p>
 
         <div className="hero-cta-group">
-          <button className="btn-pixel btn-pixel-primary btn-lg">
+          <button className="btn-pixel btn-pixel-primary btn-lg" onClick={() => navigate('/modules')}>
             <span>🚀</span>
             <span className="btn-blink-label">[ INITIATE IGNITION ]</span>
           </button>
@@ -552,6 +554,7 @@ function RanksSection() {
    CTA SECTION
 ───────────────────────────────────────── */
 function CTASection() {
+  const navigate = useNavigate()
   return (
     <section className="cta-section">
       <div className="particles-container">
@@ -581,7 +584,7 @@ function CTASection() {
       </p>
 
       <div className="reveal" style={{ display: 'flex', justifyContent: 'center', gap: 16, flexWrap: 'wrap' }}>
-        <button className="btn-pixel btn-pixel-primary btn-lg">
+        <button className="btn-pixel btn-pixel-primary btn-lg" onClick={() => navigate('/modules')}>
           <span>🚀</span>
           <span className="btn-blink-label">[ PRESS START TO LAUNCH ]</span>
         </button>

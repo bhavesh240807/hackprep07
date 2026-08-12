@@ -1,0 +1,370 @@
+{
+  "modules": [
+    {
+      "id": "solar-system",
+      "name": "THE SOLAR SYSTEM",
+      "icon": "🪐",
+      "description": "Planets, moons, orbits, and the architecture of our cosmic neighborhood.",
+      "sector": "SECTOR ALPHA",
+      "color": "#00F0FF",
+      "levels": {
+        "cadet": {
+          "title": "CADET",
+          "difficulty": 1,
+          "notes": [
+            "Our Solar System has 8 planets orbiting the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. They are divided into rocky inner planets (terrestrial) and gas/ice outer planets (Jovian).",
+            "The Sun contains over 99.8% of the total mass of the entire Solar System. It is a medium-sized star classified as a G-type main-sequence star (yellow dwarf).",
+            "Earth is the third planet from the Sun and the only known planet to support life. Its distance from the Sun (~150 million km) is defined as 1 Astronomical Unit (AU).",
+            "The asteroid belt lies between Mars and Jupiter and contains millions of rocky objects. The dwarf planet Ceres is the largest object in the asteroid belt.",
+            "Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union (IAU) because it has not cleared its orbital neighborhood of other debris."
+          ],
+          "keyFacts": [
+            "8 planets orbit the Sun",
+            "Jupiter is the largest planet — it could fit 1,300 Earths",
+            "1 AU = ~150 million km (Earth-Sun distance)"
+          ],
+          "funFact": "A day on Venus (243 Earth days) is longer than a year on Venus (225 Earth days). Venus also rotates backwards compared to most planets!"
+        },
+        "pilot": {
+          "title": "PILOT",
+          "difficulty": 2,
+          "notes": [
+            "The inner rocky planets (Mercury, Venus, Earth, Mars) are small and dense with solid surfaces. The outer planets (Jupiter, Saturn, Uranus, Neptune) are massive gas or ice giants with thick atmospheres and no solid ground.",
+            "Jupiter's Great Red Spot is a storm larger than Earth that has been raging for at least 350 years. Jupiter also has 95 known moons, including Europa, which may harbor a subsurface ocean with conditions suitable for life.",
+            "Saturn's rings are made of billions of particles of ice and rock, ranging from tiny grains to house-sized chunks. The rings span 282,000 km but are only about 10 meters thick on average.",
+            "The Kuiper Belt, beyond Neptune, is home to dwarf planets like Pluto, Eris, and Makemake. Even further out lies the hypothetical Oort Cloud, a spherical shell of icy bodies extending nearly a light-year from the Sun.",
+            "Tidal locking occurs when a moon's rotation period matches its orbital period around a planet, causing the same face to always point toward the planet. Earth's Moon is tidally locked — we never see its far side from Earth."
+          ],
+          "keyFacts": [
+            "Europa (Jupiter's moon) may have more water than Earth",
+            "Saturn's rings are only ~10m thick despite spanning 282,000 km",
+            "The Oort Cloud extends nearly 1 light-year from the Sun"
+          ],
+          "funFact": "If you could put Saturn in a giant bathtub, it would float! Its average density (0.687 g/cm³) is less than water."
+        },
+        "commander": {
+          "title": "COMMANDER",
+          "difficulty": 3,
+          "notes": [
+            "Planetary migration theory (the Nice Model) suggests Jupiter and Saturn migrated through the early Solar System, scattering planetesimals and reshaping the orbits of Uranus and Neptune. This explains the Late Heavy Bombardment ~3.9 billion years ago.",
+            "The Hill Sphere defines the region around a planet where its gravity dominates over the Sun's. For Earth, this radius is about 1.5 million km — any moon must orbit within this zone to remain gravitationally bound.",
+            "Lagrange points are five positions in an orbital system where the gravitational pull of two large masses (e.g., Sun and Earth) precisely balances the centripetal force. The James Webb Space Telescope orbits at the Sun-Earth L2 point.",
+            "Resonance orbits are a key stabilizing mechanism: Pluto and Neptune are in a 2:3 orbital resonance, meaning Pluto completes 2 orbits for every 3 of Neptune's, preventing them from ever colliding despite crossing paths.",
+            "The Roche Limit is the minimum distance a moon can orbit a planet before tidal forces tear it apart. Saturn's rings likely formed when a moon or captured body crossed within Saturn's Roche Limit and was shredded."
+          ],
+          "keyFacts": [
+            "The Nice Model explains planetary migration in the early Solar System",
+            "Earth's Hill Sphere extends ~1.5 million km",
+            "JWST orbits at the Sun-Earth L2 Lagrange point"
+          ],
+          "funFact": "If the Sun were the size of a front door, Earth would be the size of a nickel, and Jupiter would be the size of a basketball — and Neptune would be 1.5 km away!"
+        }
+      }
+    },
+    {
+      "id": "stars-stellar-evolution",
+      "name": "STARS & STELLAR EVOLUTION",
+      "icon": "⭐",
+      "description": "Birth, life, death, and rebirth of stars across the cosmos.",
+      "sector": "SECTOR BETA",
+      "color": "#FFD700",
+      "levels": {
+        "cadet": {
+          "title": "CADET",
+          "difficulty": 1,
+          "notes": [
+            "Stars are massive balls of hot gas (mostly hydrogen and helium) that produce energy through nuclear fusion in their cores. Our Sun is a star — a fairly average one in size and brightness.",
+            "Stars are born in nebulae — massive clouds of gas and dust. Gravity pulls the gas together, forming a protostar. When the core gets hot enough (~15 million °C), hydrogen fusion ignites and a star is born.",
+            "The color of a star tells you its surface temperature: red stars are cooler (~3,000 K), yellow stars like our Sun are medium (~5,800 K), and blue stars are extremely hot (>20,000 K).",
+            "When a star like our Sun exhausts its hydrogen fuel, it swells into a red giant, then sheds its outer layers as a planetary nebula, leaving behind a white dwarf — a tiny, dense stellar corpse.",
+            "The nearest star to Earth (after the Sun) is Proxima Centauri, about 4.24 light-years away. Light from it takes over 4 years to reach us."
+          ],
+          "keyFacts": [
+            "Stars fuse hydrogen into helium to produce energy",
+            "Our Sun's surface temperature is ~5,800 K",
+            "Proxima Centauri is 4.24 light-years away"
+          ],
+          "funFact": "The Sun loses about 4 million tons of mass every second through fusion — but don't worry, it has enough fuel to last another 5 billion years!"
+        },
+        "pilot": {
+          "title": "PILOT",
+          "difficulty": 2,
+          "notes": [
+            "The Hertzsprung-Russell (H-R) Diagram plots stars by luminosity vs. temperature. Most stars fall on the 'Main Sequence' — a diagonal band where they spend the majority of their lives fusing hydrogen.",
+            "Massive stars (>8 solar masses) end their lives in violent supernova explosions. The core collapses into either a neutron star (1.4–3 solar masses) or a black hole (>3 solar masses).",
+            "A neutron star is so dense that a teaspoon of its material would weigh about 6 billion tons on Earth. Pulsars are rapidly spinning neutron stars that emit beams of radiation like cosmic lighthouses.",
+            "Binary star systems (two stars orbiting each other) are actually more common than single stars. Some binaries can transfer mass between each other, leading to novae or even Type Ia supernovae.",
+            "Red dwarfs are the most common type of star in the universe, making up about 70% of all stars. They burn fuel so slowly that they can last trillions of years — far longer than the current age of the universe."
+          ],
+          "keyFacts": [
+            "The H-R Diagram is the fundamental classification tool for stars",
+            "A teaspoon of neutron star material weighs ~6 billion tons",
+            "Red dwarfs make up ~70% of all stars"
+          ],
+          "funFact": "When Betelgeuse (a red supergiant in Orion) eventually goes supernova, it will be visible from Earth in daylight for weeks — but don't panic, it's 650 light-years away!"
+        },
+        "commander": {
+          "title": "COMMANDER",
+          "difficulty": 3,
+          "notes": [
+            "The Chandrasekhar Limit (1.4 M☉) is the maximum mass a white dwarf can have before electron degeneracy pressure can no longer support it against gravitational collapse. Exceeding this triggers a Type Ia supernova — used as 'standard candles' for measuring cosmic distances.",
+            "The CNO cycle (Carbon-Nitrogen-Oxygen) is the dominant hydrogen fusion process in stars more massive than ~1.3 solar masses, while the proton-proton chain dominates in smaller stars like our Sun. The CNO cycle is extremely temperature-sensitive (∝ T^16).",
+            "Stellar nucleosynthesis creates elements up to iron (Fe-56) in a star's core through successive fusion stages. Elements heavier than iron require energy input and are forged during supernovae via the r-process (rapid neutron capture).",
+            "Wolf-Rayet stars are massive, evolved stars that have lost their hydrogen envelopes through intense stellar winds (up to 2,000 km/s). They represent a brief evolutionary phase before core collapse and are key sources of heavy elements in galaxies.",
+            "The Tolman-Oppenheimer-Volkoff (TOV) limit (~2.1–2.5 M☉) is the maximum mass a neutron star can have. Beyond this, not even neutron degeneracy pressure can prevent collapse into a black hole."
+          ],
+          "keyFacts": [
+            "Chandrasekhar Limit: 1.4 M☉ (max white dwarf mass)",
+            "TOV Limit: ~2.1–2.5 M☉ (max neutron star mass)",
+            "Elements heavier than iron are forged in supernovae"
+          ],
+          "funFact": "A magnetar (a type of neutron star) has a magnetic field so strong that it could erase every credit card on Earth from halfway across the Solar System!"
+        }
+      }
+    },
+    {
+      "id": "gravity-orbital-mechanics",
+      "name": "GRAVITY & ORBITAL MECHANICS",
+      "icon": "🌀",
+      "description": "The invisible force that sculpts orbits, bends light, and shapes the universe.",
+      "sector": "SECTOR GAMMA",
+      "color": "#FF007F",
+      "levels": {
+        "cadet": {
+          "title": "CADET",
+          "difficulty": 1,
+          "notes": [
+            "Gravity is the force of attraction between any two objects with mass. The more massive an object, the stronger its gravitational pull. Earth's gravity keeps us on the ground and the Moon in orbit.",
+            "An orbit is the curved path an object takes around a more massive body due to gravity. The Moon orbits Earth, Earth orbits the Sun, and the Sun orbits the center of the Milky Way.",
+            "Sir Isaac Newton formulated the Law of Universal Gravitation in 1687: every particle attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+            "Astronauts in the International Space Station (ISS) appear weightless — but gravity at ISS altitude (~400 km) is still about 90% as strong as on Earth's surface. They're actually in continuous free fall around Earth!",
+            "Escape velocity is the minimum speed needed to break free from a body's gravitational pull without further propulsion. For Earth, it's about 11.2 km/s (40,320 km/h)."
+          ],
+          "keyFacts": [
+            "Gravity gets weaker with the square of distance",
+            "ISS astronauts experience ~90% of Earth's surface gravity",
+            "Earth's escape velocity is 11.2 km/s"
+          ],
+          "funFact": "If you could dig a tunnel straight through the Earth and jumped in, you'd oscillate back and forth through the center, taking about 42 minutes per trip — the same time as any orbit at Earth's surface!"
+        },
+        "pilot": {
+          "title": "PILOT",
+          "difficulty": 2,
+          "notes": [
+            "Kepler's Three Laws of Planetary Motion: (1) Planets orbit in ellipses with the Sun at one focus. (2) A line from planet to Sun sweeps equal areas in equal time. (3) The square of a planet's orbital period is proportional to the cube of its semi-major axis (T² ∝ a³).",
+            "A Hohmann Transfer Orbit is the most fuel-efficient way to move between two circular orbits. It uses two engine burns: one to enter an elliptical transfer orbit, and another to circularize at the destination orbit.",
+            "Orbital velocity decreases with altitude: objects in Low Earth Orbit (~400 km) travel at ~7.7 km/s, while geostationary satellites (~35,786 km) orbit at only ~3.07 km/s. Lower orbits = faster speeds.",
+            "A gravity assist (slingshot maneuver) uses a planet's gravity and orbital velocity to accelerate or decelerate a spacecraft without using fuel. Voyager 2 used gravity assists from Jupiter, Saturn, and Uranus to reach Neptune.",
+            "Tidal forces arise because gravity varies across an extended object. The near side of the Moon experiences stronger gravitational pull from Earth than the far side, stretching it slightly. This same effect causes ocean tides on Earth."
+          ],
+          "keyFacts": [
+            "Kepler's 3rd Law: T² ∝ a³",
+            "Geostationary orbit altitude: 35,786 km",
+            "Voyager 2 used multiple gravity assists to reach Neptune"
+          ],
+          "funFact": "GPS satellites must account for both Special and General Relativity — their clocks run 38 microseconds faster per day than ground clocks. Without correction, GPS would drift by ~10 km/day!"
+        },
+        "commander": {
+          "title": "COMMANDER",
+          "difficulty": 3,
+          "notes": [
+            "The vis-viva equation (v² = GM(2/r − 1/a)) relates orbital speed to position and semi-major axis. It unifies circular, elliptical, parabolic, and hyperbolic orbits into a single framework and is fundamental to all orbital transfer calculations.",
+            "The Oberth Effect states that a rocket burn is most efficient at periapsis (closest approach) because kinetic energy gained from burning fuel is greater at higher velocities. This is why spacecraft fire engines at their lowest orbital point.",
+            "Orbital perturbations — caused by atmospheric drag, solar radiation pressure, gravitational influences from the Moon/Sun, and Earth's oblate shape (J2 perturbation) — make real orbits deviate from ideal Keplerian ellipses.",
+            "The three-body problem has no general analytical solution. Poincaré proved this in 1889, showing that three gravitationally interacting bodies can produce chaotic, unpredictable motion. Numerical simulation is the only practical approach.",
+            "Frame dragging (Lense-Thirring effect), predicted by General Relativity, occurs when a rotating massive body drags spacetime around with it. NASA's Gravity Probe B confirmed this effect near Earth in 2011 with extraordinary precision."
+          ],
+          "keyFacts": [
+            "Vis-viva equation: v² = GM(2/r − 1/a)",
+            "The Oberth Effect: burns are most efficient at periapsis",
+            "The three-body problem has no analytical solution"
+          ],
+          "funFact": "The International Space Station must perform debris avoidance maneuvers several times per year. There are over 27,000 pieces of tracked orbital debris — each traveling at ~28,000 km/h!"
+        }
+      }
+    },
+    {
+      "id": "black-holes-spacetime",
+      "name": "BLACK HOLES & SPACETIME",
+      "icon": "🕳️",
+      "description": "Where gravity wins — event horizons, singularities, and warped spacetime.",
+      "sector": "SECTOR DELTA",
+      "color": "#8A2BE2",
+      "levels": {
+        "cadet": {
+          "title": "CADET",
+          "difficulty": 1,
+          "notes": [
+            "A black hole is a region of spacetime where gravity is so extreme that nothing — not even light — can escape once it crosses the event horizon. They form when massive stars collapse at the end of their lives.",
+            "The event horizon is the 'point of no return' around a black hole. Once anything crosses this boundary, escape is impossible. From outside, the event horizon appears as a perfectly dark sphere.",
+            "Black holes come in three main sizes: stellar-mass (5–100 solar masses, formed from collapsed stars), intermediate (100–100,000 solar masses), and supermassive (millions to billions of solar masses, found at galaxy centers).",
+            "The supermassive black hole at the center of our Milky Way galaxy is called Sagittarius A* (Sgr A*). It has a mass of about 4 million times that of our Sun, yet is compact enough to fit within Mercury's orbit.",
+            "In 2019, the Event Horizon Telescope (EHT) captured the first-ever image of a black hole — the supermassive black hole in galaxy M87, which has a mass of 6.5 billion solar masses."
+          ],
+          "keyFacts": [
+            "Nothing can escape a black hole's event horizon — not even light",
+            "Sagittarius A* has ~4 million solar masses",
+            "First black hole image: M87*, captured in 2019"
+          ],
+          "funFact": "If you compressed the entire Earth into a black hole, it would be about the size of a marble — roughly 1.7 cm in diameter!"
+        },
+        "pilot": {
+          "title": "PILOT",
+          "difficulty": 2,
+          "notes": [
+            "Einstein's General Relativity (1915) describes gravity not as a force, but as the curvature of spacetime caused by mass and energy. Massive objects bend spacetime, and other objects follow curved paths (geodesics) through this warped geometry.",
+            "Gravitational lensing occurs when a massive object (like a galaxy cluster) bends light from a more distant source, acting like a cosmic magnifying glass. This effect has been used to discover some of the most distant galaxies known.",
+            "Spaghettification is the tidal stretching effect near a black hole. As you fall toward a stellar-mass black hole, the gravitational difference between your head and feet stretches you into a thin strand. Supermassive black holes have gentler tidal forces at the horizon.",
+            "Time dilation near a black hole is a real prediction of General Relativity. Clocks closer to a massive object tick slower relative to distant observers. Near an event horizon, time appears to almost stop for an outside observer.",
+            "Hawking Radiation, proposed by Stephen Hawking in 1974, predicts that black holes slowly emit thermal radiation due to quantum effects near the event horizon. Over immense timescales, this causes black holes to gradually evaporate."
+          ],
+          "keyFacts": [
+            "Gravity = curvature of spacetime (General Relativity)",
+            "Gravitational lensing acts as a cosmic magnifying glass",
+            "Hawking Radiation causes black holes to slowly evaporate"
+          ],
+          "funFact": "If you watched someone fall into a black hole from a safe distance, you'd see them slow down and freeze at the event horizon, their image growing redder and dimmer — but never quite vanishing!"
+        },
+        "commander": {
+          "title": "COMMANDER",
+          "difficulty": 3,
+          "notes": [
+            "The Schwarzschild radius (r_s = 2GM/c²) defines the event horizon of a non-rotating black hole. For a solar-mass black hole, this is about 3 km. The Kerr metric generalizes this to rotating black holes, which have an ergosphere outside the event horizon.",
+            "The black hole information paradox: quantum mechanics says information cannot be destroyed, but if matter falls into a black hole and it eventually evaporates via Hawking radiation (which appears thermal/random), where does the information go? This remains one of physics' deepest unsolved problems.",
+            "The Penrose Process allows energy extraction from a rotating (Kerr) black hole's ergosphere. An object entering the ergosphere can split — one fragment falls in with negative energy, while the other escapes with more energy than the original. This could theoretically power advanced civilizations.",
+            "Gravitational waves — ripples in spacetime — were first directly detected by LIGO in 2015 from two merging black holes (GW150914). The collision converted about 3 solar masses of matter into pure gravitational wave energy in a fraction of a second.",
+            "The holographic principle (proposed by 't Hooft and Susskind) suggests all information contained within a volume of space can be encoded on its boundary surface. For black holes, this means the event horizon's area (not volume) determines its information content, with entropy S = A/(4l_P²)."
+          ],
+          "keyFacts": [
+            "Schwarzschild radius: r_s = 2GM/c²",
+            "LIGO detected gravitational waves in 2015 (GW150914)",
+            "Black hole entropy: S = A/(4l_P²) — the Bekenstein-Hawking formula"
+          ],
+          "funFact": "The black hole at the center of the galaxy Phoenix A is one of the largest ever discovered — about 100 billion solar masses, with an event horizon so large that our entire Solar System would fit inside it thousands of times!"
+        }
+      }
+    },
+    {
+      "id": "space-exploration",
+      "name": "SPACE EXPLORATION",
+      "icon": "🚀",
+      "description": "Humanity's greatest journeys — from first rockets to Mars rovers and beyond.",
+      "sector": "SECTOR EPSILON",
+      "color": "#00FF41",
+      "levels": {
+        "cadet": {
+          "title": "CADET",
+          "difficulty": 1,
+          "notes": [
+            "The Space Age began on October 4, 1957, when the Soviet Union launched Sputnik 1 — the first artificial satellite to orbit Earth. It was a 58 cm aluminum sphere that transmitted radio beeps for 21 days.",
+            "Yuri Gagarin became the first human in space on April 12, 1961, aboard Vostok 1. His entire flight lasted 108 minutes and completed one orbit around Earth.",
+            "On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Buzz Aldrin became the first humans to walk on the Moon. The mission was the culmination of NASA's Mercury, Gemini, and Apollo programs.",
+            "The International Space Station (ISS) is the largest human-made structure in space. It orbits Earth at ~400 km altitude, travels at 27,600 km/h, and has been continuously occupied since November 2000.",
+            "NASA's Mars rovers (Spirit, Opportunity, Curiosity, Perseverance) have explored the Martian surface searching for signs of ancient water and microbial life. Perseverance landed in Jezero Crater in 2021 and carries the Ingenuity helicopter."
+          ],
+          "keyFacts": [
+            "Sputnik 1 (1957): first artificial satellite",
+            "Apollo 11 (1969): first humans on the Moon",
+            "ISS has been continuously occupied since 2000"
+          ],
+          "funFact": "The Apollo astronauts left retroreflectors on the Moon's surface. Scientists still bounce lasers off them today to measure the Moon's distance to within millimeter precision!"
+        },
+        "pilot": {
+          "title": "PILOT",
+          "difficulty": 2,
+          "notes": [
+            "The Tsiolkovsky rocket equation (Δv = v_e × ln(m_0/m_f)) is the fundamental formula of spaceflight. It shows that the change in velocity depends on exhaust velocity and the ratio of initial to final mass — which is why rockets are mostly fuel.",
+            "Voyager 1, launched in 1977, is the most distant human-made object. In 2012, it crossed the heliopause and entered interstellar space. It carries the Golden Record — a message for any alien intelligence that might find it.",
+            "SpaceX revolutionized spaceflight with reusable rockets. The Falcon 9 first stage lands vertically after launch and has been reused dozens of times, drastically reducing launch costs from ~$10,000/kg to ~$2,700/kg to LEO.",
+            "The James Webb Space Telescope (JWST), launched December 2021, observes the universe in infrared from the Sun-Earth L2 Lagrange point. Its 6.5-meter gold-coated mirror is the largest ever sent to space and can detect galaxies formed just 200 million years after the Big Bang.",
+            "Ion propulsion engines (like those on NASA's Dawn spacecraft) use electrically accelerated ions for thrust. They produce very low thrust but are incredibly fuel-efficient, enabling missions to multiple asteroid belt targets."
+          ],
+          "keyFacts": [
+            "Tsiolkovsky equation: Δv = v_e × ln(m_0/m_f)",
+            "Voyager 1 entered interstellar space in 2012",
+            "JWST's mirror is 6.5 meters in diameter"
+          ],
+          "funFact": "Voyager 1 is so far away that radio signals (traveling at light speed) take over 22 hours to reach it. The spacecraft's computer has less memory than a modern car key fob!"
+        },
+        "commander": {
+          "title": "COMMANDER",
+          "difficulty": 3,
+          "notes": [
+            "Multi-stage rockets work by shedding empty fuel tanks (stages) during ascent, reducing dead weight. The Saturn V used three stages: S-IC (first stage, kerosene/LOX), S-II (second stage, LH2/LOX), and S-IVB (third stage, LH2/LOX for trans-lunar injection).",
+            "Aerobraking uses atmospheric drag to slow a spacecraft and reduce its orbit without fuel. Mars orbiters like Mars Reconnaissance Orbiter used aerobraking over months, dipping into Mars' upper atmosphere to gradually circularize their orbits.",
+            "The tyranny of the rocket equation means that for chemical rockets, reaching orbit requires a mass ratio of ~10:1 (90% fuel). Achieving escape velocity for interplanetary missions pushes this even further, making payload fraction a critical engineering constraint.",
+            "Solar sails use radiation pressure from photons (sunlight) for propulsion — no fuel required. JAXA's IKAROS (2010) was the first successful solar sail. The proposed Breakthrough Starshot aims to use laser-pushed sails to send gram-scale probes to Alpha Centauri at 20% light speed.",
+            "In-Situ Resource Utilization (ISRU) is critical for sustainable Mars exploration. NASA's MOXIE experiment on Perseverance demonstrated converting Martian CO₂ atmosphere into oxygen. Future missions plan to produce rocket propellant (methane + oxygen) from Mars' atmosphere and water ice."
+          ],
+          "keyFacts": [
+            "Saturn V had 3 stages and produced 7.5 million pounds of thrust",
+            "IKAROS (2010): first successful solar sail mission",
+            "MOXIE produced oxygen from Mars' CO₂ atmosphere"
+          ],
+          "funFact": "The Space Shuttle's main engines were so efficient that if a car had the same fuel efficiency, it could drive around the Earth 14 times on a single gallon of gas — though at a much higher speed!"
+        }
+      }
+    },
+    {
+      "id": "galaxies-universe",
+      "name": "GALAXIES & THE UNIVERSE",
+      "icon": "🌌",
+      "description": "The cosmic web — galaxy clusters, dark matter, dark energy, and the fate of everything.",
+      "sector": "SECTOR ZETA",
+      "color": "#E040FB",
+      "levels": {
+        "cadet": {
+          "title": "CADET",
+          "difficulty": 1,
+          "notes": [
+            "A galaxy is a massive collection of stars, gas, dust, and dark matter held together by gravity. Our galaxy, the Milky Way, contains an estimated 100–400 billion stars and is about 100,000 light-years in diameter.",
+            "Galaxies come in three main shapes: spiral (like the Milky Way — with arms), elliptical (smooth, oval-shaped, mostly older stars), and irregular (no defined shape, often from collisions).",
+            "The Milky Way is part of the Local Group, a collection of over 80 galaxies spanning about 10 million light-years. The Andromeda Galaxy (M31) is the largest member and is heading toward us at ~110 km/s.",
+            "The Big Bang Theory states the universe began ~13.8 billion years ago from an incredibly hot, dense state and has been expanding ever since. The Cosmic Microwave Background (CMB) radiation is the afterglow of this event.",
+            "The observable universe is about 93 billion light-years in diameter and contains roughly 2 trillion galaxies. We can only see objects whose light has had time to reach us since the Big Bang."
+          ],
+          "keyFacts": [
+            "The Milky Way has 100–400 billion stars",
+            "The universe is ~13.8 billion years old",
+            "The observable universe contains ~2 trillion galaxies"
+          ],
+          "funFact": "The Andromeda Galaxy is on a collision course with the Milky Way! In about 4.5 billion years, the two galaxies will merge into a giant elliptical galaxy nicknamed 'Milkomeda.'"
+        },
+        "pilot": {
+          "title": "PILOT",
+          "difficulty": 2,
+          "notes": [
+            "Dark matter makes up ~27% of the universe's total mass-energy. It doesn't emit, absorb, or reflect light — we detect it only through its gravitational effects on visible matter, such as galaxy rotation curves that spin faster than visible mass alone can explain.",
+            "Dark energy (~68% of the universe) is a mysterious force driving the accelerating expansion of the universe. It was discovered in 1998 by two teams studying distant Type Ia supernovae, earning them the 2011 Nobel Prize in Physics.",
+            "Hubble's Law (v = H₀ × d) states that galaxies are moving away from us at speeds proportional to their distance. The Hubble Constant (H₀ ≈ 70 km/s/Mpc) quantifies the expansion rate, though precise measurements from different methods disagree (the 'Hubble Tension').",
+            "Galaxy clusters are the largest gravitationally bound structures in the universe. The Virgo Supercluster, which contains our Local Group, is itself part of the even larger Laniakea Supercluster spanning 500 million light-years.",
+            "Active Galactic Nuclei (AGN) are supermassive black holes at galaxy centers that are actively accreting matter. Quasars are the most luminous type of AGN — some outshine their entire host galaxy by a factor of 1,000."
+          ],
+          "keyFacts": [
+            "Dark matter: ~27% of the universe",
+            "Dark energy: ~68% — causing accelerating expansion",
+            "Hubble Constant H₀ ≈ 70 km/s/Mpc"
+          ],
+          "funFact": "If the entire history of the universe were compressed into a single calendar year, all of recorded human history would fit into the last 14 seconds of December 31st!"
+        },
+        "commander": {
+          "title": "COMMANDER",
+          "difficulty": 3,
+          "notes": [
+            "The Friedmann equations (derived from General Relativity) describe how the scale factor of the universe evolves over time. The critical density (ρ_c = 3H²/8πG) determines the universe's geometry: flat (ρ = ρ_c), open (ρ < ρ_c), or closed (ρ > ρ_c). Observations indicate the universe is very close to flat.",
+            "Baryon Acoustic Oscillations (BAO) are periodic density fluctuations in the visible matter of the universe, caused by sound waves in the early universe's plasma. They act as a 'standard ruler' (~490 million light-years) for measuring cosmic distances and constraining dark energy models.",
+            "Cosmic inflation theory proposes that the universe underwent exponential expansion (~10⁻³⁶ to ~10⁻³² seconds after the Big Bang), increasing in size by at least a factor of 10²⁶. This explains the universe's flatness, homogeneity, and the absence of magnetic monopoles.",
+            "The matter-antimatter asymmetry (baryogenesis) remains one of physics' biggest unsolved puzzles. The Big Bang should have produced equal matter and antimatter, which would annihilate completely. The slight excess (~1 extra matter particle per billion) that survived is everything we see today.",
+            "The fate of the universe depends on dark energy's behavior. If constant (cosmological constant Λ): eternal expansion and 'Heat Death.' If increasing: a 'Big Rip' tears apart atoms themselves. If decreasing or reverses: a 'Big Crunch' collapses everything back. Current evidence favors Heat Death."
+          ],
+          "keyFacts": [
+            "Critical density: ρ_c = 3H²/8πG — the universe is flat",
+            "Inflation expanded the universe by factor of ~10²⁶ in ~10⁻³² seconds",
+            "Only ~1 in a billion matter particles survived annihilation with antimatter"
+          ],
+          "funFact": "The largest known structure in the universe is the Hercules-Corona Borealis Great Wall — a filament of galaxies spanning about 10 billion light-years, so large it challenges our understanding of how structures can form!"
+        }
+      }
+    }
+  ]
+}
