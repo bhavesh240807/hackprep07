@@ -1,9 +1,11 @@
-import React from 'react'
+import StarField from './components/StarField'
+import LandingPage from './pages/LandingPage'
 
-const App = () => {
+export default function App() {
   return (
-    <div>App</div>
+    <>
+      <StarField />
+      <LandingPage />
+    </>
   )
 }
-
-export default App
