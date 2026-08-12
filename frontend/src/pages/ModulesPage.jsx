@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import spaceData from '../data/spaceNotes.json'
+import QuizPage from './QuizPage'
 
 /* ── Scroll reveal hook ── */
 function useReveal() {
@@ -340,12 +341,40 @@ export default function ModulesPage() {
         </div>
       </footer>
 
-      {/* Module Detail Overlay */}
+      {/* Quiz Modal Overlay */}
       {selectedModule && (
-        <ModuleDetail
-          module={selectedModule}
-          onClose={() => setSelectedModule(null)}
-        />
+        <div
+          style={{
+            position: 'fixed', inset: 0, zIndex: 500,
+            background: 'rgba(6,6,15,0.96)',
+            backdropFilter: 'blur(12px)',
+            overflowY: 'auto',
+            animation: 'fadeIn 0.3s ease',
+          }}
+        >
+          {/* Quiz navbar */}
+          <nav className="navbar">
+            <div className="nav-logo" onClick={() => setSelectedModule(null)} style={{ cursor: 'pointer' }}>
+              orbit<span>Ed.</span>
+            </div>
+            <div style={{ fontFamily: 'var(--font-pixel)', fontSize: 10, color: 'var(--grey)', letterSpacing: 2 }}>
+              MISSION BRIEFING
+            </div>
+            <button
+              className="btn-pixel btn-pixel-secondary"
+              style={{ fontSize: 9, padding: '8px 16px' }}
+              onClick={() => setSelectedModule(null)}
+            >
+              ✕ EXIT MISSION
+            </button>
+          </nav>
+          <div style={{ paddingTop: 64 }}>
+            <QuizPage
+              module={selectedModule}
+              onClose={() => setSelectedModule(null)}
+            />
+          </div>
+        </div>
       )}
     </>
   )

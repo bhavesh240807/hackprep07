@@ -160,7 +160,7 @@ function HeroSection() {
             <span>🚀</span>
             <span className="btn-blink-label">[ INITIATE IGNITION ]</span>
           </button>
-          <button className="btn-pixel btn-pixel-secondary">
+          <button className="btn-pixel btn-pixel-secondary" onClick={() => navigate('/modules')}>
             VIEW MISSIONS
           </button>
         </div>

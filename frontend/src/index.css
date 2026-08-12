@@ -97,6 +97,19 @@ body::after {
   50% { transform: translateY(-12px); }
 }
 
+@keyframes xpBounce {
+  0% { opacity: 0; transform: translateY(0) scale(0.5); }
+  50% { opacity: 1; transform: translateY(-30px) scale(1.2); }
+  100% { opacity: 0; transform: translateY(-60px) scale(1); }
+}
+
+@keyframes xpFloatUp {
+  0% { opacity: 0; transform: translateX(-50%) translateY(0) scale(0.6); }
+  20% { opacity: 1; transform: translateX(-50%) translateY(-20px) scale(1.2); }
+  70% { opacity: 1; transform: translateX(-50%) translateY(-50px) scale(1); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-90px) scale(0.8); }
+}
+
 @keyframes floatSlow {
   0%, 100% { transform: translateY(0px) rotate(0deg); }
   33% { transform: translateY(-8px) rotate(1deg); }
